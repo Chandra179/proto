@@ -12,7 +12,7 @@ endif
 		--go_opt=module=github.com/Chandra179/proto/$(DIR) \
 		--go-grpc_opt=module=github.com/Chandra179/proto/$(DIR) \
 		$(NAME).proto
-	@echo "Generated files in $(if $(DIR),$(DIR),go-gen)/ directory"
+	@echo "Generated files in $(if $(DIR),$(DIR))/ directory"
 
 ## clean: Remove generated files
 clean:
